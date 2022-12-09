@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+}
+nav {
+  position: relative;
+  z-index: 2;
+}
+.hero-section {
+  position: relative;
+  height: 100%;
+}
+#bgVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
