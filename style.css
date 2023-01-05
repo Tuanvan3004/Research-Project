@@ -27,3 +27,7 @@ nav {
   width: 100%;
   padding: 20px;
 }
+
+.alternate-bg {
+  background-color: rgb(255, 240, 240);
+}
